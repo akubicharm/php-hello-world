@@ -5,5 +5,5 @@ echo gethostname();
 echo "<br>";
 echo "Client IP: ";
 echo $_SERVER["REMOTE_ADDR"];
-echo "2016-11-18 Next";
+echo "2016-11-25 Next";
 ?>
