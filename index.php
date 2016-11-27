@@ -2,8 +2,7 @@
 echo "<h1>Hello OpenShift<h1>";
 echo "Greetings:";
 echo getenv("GREETINGS");
-
-<br>
+echo "<br>";
 
 echo "Container Name: ";
 echo gethostname();
