@@ -1,5 +1,5 @@
 <?php
-echo "<h1>Hello OpenShift Updated<h1>";
+echo "<h1>Hello OpenShift Update 1<h1>";
 echo "Greetings:";
 echo getenv("GREETINGS");
 echo "<br>";
