@@ -1,5 +1,5 @@
 <?php
-echo "<h1>Hello OpenShift 2017-01-20<h1>";
+echo "<h1>Hello OpenShift 2017-02-02<h1>";
 echo "Greetings:";
 echo getenv("GREETINGS");
 echo "<br>";
