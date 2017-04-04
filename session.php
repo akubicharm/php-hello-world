@@ -1,6 +1,15 @@
 <?php
     header('Content-Type: text/plain');
     session_start();
+
+
+    echo "save_handler=" . ini_get("session.save_handler") . "\n";
+    echo "save_path=" . ini_get("session.save_path") . "\n";
+    echo "session_id=" . session_id() . "\n";
+
+    $_SESSION['libname'] = "PhpRedis";
+
+
     if(!isset($_SESSION['visit']))
     {
         echo "This is the first time you're visiting this server\n";
