@@ -1,0 +1,9 @@
+---
+buildName: "php-hello-world"
+links:
+  Git: "https://github.com/akubicharm/php-hello-world.git"
+  Job: "http://jenkins.f8.54.238.193.192.xip.io/job/php-hello-world"
+  Staging: "http://10.3.0.72:80/kubernetes/pods?namespace=f8-staging"
+environments:
+  Staging: "f8-staging"
+useLocalFlow: true
